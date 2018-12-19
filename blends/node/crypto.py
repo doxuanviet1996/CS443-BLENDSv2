@@ -9,7 +9,7 @@ def sign(sk, msg):
 def verify(pk, msg, sig):
     '''
     check sign is made for msg using public key PK, string MSG, 
-    and byte string SIGN.
+    and hex string SIGN.
     suppose publicExponent is fixed at 0x10001.
     return boolean
     '''
